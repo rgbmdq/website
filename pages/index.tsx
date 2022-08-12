@@ -1,8 +1,8 @@
-import Content from "../components/content/content";
-import Footer from "../components/footer/footer";
-import Header from "../components/header/header";
-import Hero from "../components/hero/hero";
-import Testimonials from "../components/testimonials/testimonials";
+import Header from "../components/Header";
+import Content from "../components/Content";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Testimonials from "../components/Testimonials";
 import Form from "../components/Form"
 
 export default function Home() {
