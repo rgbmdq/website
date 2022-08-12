@@ -1,6 +1,0 @@
-.header {
-  @apply hidden lg:flex gap-8 text-blue;
-  & a {
-    @apply text-blue no-underline appearance-none hover:text-violet;
-  }
-}

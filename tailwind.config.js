@@ -1,5 +1,8 @@
 // tailwind.config.js
 module.exports = {
+  plugins: [
+    require("@tailwindcss/forms"),
+  ],
   content: [
     "./src/**/*.{html,ts}",
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -27,5 +30,6 @@ module.exports = {
       "5xl": "3rem",
       "6xl": "4rem",
     },
+    fontWeight: { normal: 400, medium: 500, bold: 700 },
   },
 };
