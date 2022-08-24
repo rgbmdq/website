@@ -55,7 +55,7 @@ export default function Header() {
               <ul className="transition-transform items-center justify-center space-y-8 md:flex  md:space-x-6 md:space-y-0">
                 {NavLinks.map((link, index) =>
                   !link.noShow ? (
-                    <li>
+                    <li key={index}>
                       <Link
                         href={link.href}
                         className=" text-pink font-bold no-underline appearance-none hover:text-violet"

@@ -23,11 +23,3 @@ export default function Content() {
     </div>
   );
 }
-
-// observaciones: 
-// - Naming
-// - Styles
-// Usar grid
-// Agregar los iconos
-// Generar estandarización con interfaces
-
