@@ -6,10 +6,10 @@ export default function Example() {
       <div className="absolute inset-0">
         <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50" />
       </div>
-      <div className="relative max-w-8xl mx-auto lg:grid lg:grid-cols-5">
+      <div className="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
         <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
           <div className="max-w-lg mx-auto">
-            <h2 className="text-2xl font-extrabold tracking-tight text-blue sm:text-3xl">
+            <h2 className="text-2xl font-bold tracking-tight text-blue sm:text-3xl">
               How can I help you?
             </h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
@@ -48,7 +48,7 @@ export default function Example() {
                   name="full-name"
                   id="full-name"
                   autoComplete="name"
-                  className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                  className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-pink focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                   placeholder="Full name"
                 />
               </div>
@@ -61,7 +61,7 @@ export default function Example() {
                   name="email"
                   type="email"
                   autoComplete="email"
-                  className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                  className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-pink focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                   placeholder="Email"
                 />
               </div>
@@ -73,7 +73,7 @@ export default function Example() {
                   id="message"
                   name="message"
                   rows={4}
-                  className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
+                  className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-pink focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
                   placeholder="Message"
                   defaultValue={""}
                 />
@@ -81,7 +81,7 @@ export default function Example() {
               <div>
                 <button
                   type="submit"
-                  className="inline-flex justify-center py-3 px-10 border-2 border-transparent shadow-sm text-base font-medium rounded-full text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  className="inline-flex justify-center py-3 px-10 border-2 border-pink text-pink shadow-sm text-base font-medium rounded-full text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Let's talk
                 </button>

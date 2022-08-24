@@ -35,3 +35,7 @@ export default function Testimonials() {
     </section>
   );
 }
+
+// Agregar un json con un array de testimonios, y generar una interfaz para levantarlos 
+// testimonials : [ {author: "Nicolas", content: "bla bla"}]
+// Agregar slide con animación

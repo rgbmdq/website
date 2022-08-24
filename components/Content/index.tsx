@@ -1,7 +1,6 @@
 export default function Content() {
   return (
     <div className="flex flex-col mx-auto p-8">
-        {/* intente ponerle un widht maximo pero deja de descentrarme los divs, averiguar alternativas */}
       <div className="text-center">
         <h2 className="font-bold text-3xl text-blue">Software Development</h2>
         <p className="text-2xl leading-9">
@@ -24,3 +23,11 @@ export default function Content() {
     </div>
   );
 }
+
+// observaciones: 
+// - Naming
+// - Styles
+// Usar grid
+// Agregar los iconos
+// Generar estandarización con interfaces
+

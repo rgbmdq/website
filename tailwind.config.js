@@ -16,6 +16,7 @@ module.exports = {
       violet: "#6c5B7B",
       lightViolet: "#C06C84",
       pink: "#F67280",
+      transparent: "transparent"
     },
     fontSize: {
       xs: ".75rem",
