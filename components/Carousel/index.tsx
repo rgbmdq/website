@@ -1,18 +1,6 @@
-import { useState } from "react";
-
 import Image from "next/image";
+
 export default function Carousel() {
-
-  const [currentSlide, setSlide] = useState(0);
-
-
-  function next(){}
-  function prev(){}
-
-  function showSlide(){
-    // recorrer slides quitar hidden actual y agregar hidden al resto
-  }
-
   return (
     <div className="relative w-full h-[24vh] border-2 border-[lightgrey] rounded-md p-4">
         <ul>
