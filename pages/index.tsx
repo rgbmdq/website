@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-// import Content from "../components/Content";
+import Content from "../components/Content";
 import Testimonials from "../components/Testimonials";
 import Form from "../components/Form"
 import Footer from "../components/Footer";
@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      {/* <Content />*/}
+      <Content />
       <Testimonials /> 
       <Form /> 
       <Footer />

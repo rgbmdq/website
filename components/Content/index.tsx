@@ -1,7 +1,9 @@
+import Carousel from "../Carousel";
+
 export default function Content() {
   return (
-    <div className="flex flex-col mx-auto p-8">
-      <div className="text-center">
+    <div className="grid grid-cols-12 w-full mx-auto justify-center lg: max-w-7xl p-8">
+      <div className="flex flex-col items-center py-4 lg:items-start text-center lg:text-left lg:col-span-6 col-span-12">
         <h2 className="font-bold text-3xl text-blue">Software Development</h2>
         <p className="text-2xl leading-9">
           Specialized in Full Stack Web development, I create and collaborate on
@@ -9,16 +11,8 @@ export default function Content() {
           tools and methodologies.
         </p>
       </div>
-      <div className="flex flex-row text-center p-8">
-        <div className="basis-1/3">
-          <h3 className="font-bold text-2xl text-blue">Development</h3>
-        </div>
-        <div className="basis-1/3">
-          <h3 className="font-bold text-2xl text-blue">Methodologies</h3>
-        </div>
-        <div className="basis-1/3">
-          <h3 className="font-bold text-2xl text-blue">Tools</h3>
-        </div>
+      <div className="relative h-min-xl lg:col-start-8 lg:col-span-4 col-span-full py-8">
+        <Carousel />
       </div>
     </div>
   );
